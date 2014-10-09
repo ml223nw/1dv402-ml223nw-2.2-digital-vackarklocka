@@ -1,0 +1,3 @@
+P:\1dv402\1dv402-ml223nw-1-1-vaxelpengar\2-2-digital-vackarklocka\2-2-digital-vackarklocka\bin\Debug\2-2-digital-vackarklocka.exe.config
+P:\1dv402\2-2-digital-vackarklocka\2-2-digital-vackarklocka\bin\Debug\2-2-digital-vackarklocka.exe.config
+D:\Skola\Grundläggande programering med C#\2-2-digital-vackarklocka\bin\Debug\2-2-digital-vackarklocka.exe.config
