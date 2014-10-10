@@ -14,22 +14,70 @@ namespace _2_2_digital_vackarklocka
         private int _hour;
         private int _minute;
     }
-    // Inkaplsade fält. Ska lägga till get; set; accessor och if sats.
+
+    // Inkaplsade fält.
     public int AlarmHour
     {
+        get { return _alarmHour; }
+        set
+        {
+                if (value < 0 || value > 23)
+            {
+                throw new ArgumentException();
+            }
+            else {_alarmHour = value;}
+        }
+
     }
+
 
     public int AlarmMinute
     {
+        get { return _alarmMinute; }
+        set
+        {
+                if (value < 0 || value > 59)
+            {
+                throw new ArgumentException();
+            }
+            else {_alarmMinute = value;}
+        }
+
     }
 
     public int Hour
     {
+        get { return _hour; }
+        set
+        {
+                if (value < 0 || value > 23)
+            {
+                throw new ArgumentException();
+            }
+            else {_hour = value;}
+        }
+
     }
 
-    public Minute
+    public int Minute
     {
+        get { return _minute; }
+        set
+        {
+                if (value < 0 || value > 59)
+            {
+                throw new ArgumentException();
+            }
+            else {_minute = value;}
+        }
+
     }
 
 
-}
+    // Konstruktorn kommer här.
+
+
+    // Metoden TickTock kommer här.
+
+
+    // Metoden ToString kommer här.
